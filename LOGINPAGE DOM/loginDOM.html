@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginDOMstyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const container1 = document.createElement('div');
+        container1.setAttribute("class", "container");
+
+        let left = document.createElement('div');
+        left.setAttribute("class", "leftcontainer");
+        const image = document.createElement('img');
+        image.setAttribute("src", "image.png");
+
+        let right = document.createElement('div');
+        right.setAttribute("class", "rightcontainer");
+
+        let content = document.createElement('div');
+        content.setAttribute("class", "contentarea")
+
+        let header1 = document.createElement('h1');
+        header1.textContent = " Hey, hello "
+
+        const form1 = document.createElement('form')
+        form1.setAttribute("method", "post")
+        form1.setAttribute("action", "submit")
+
+        const para = document.createElement('p');
+        para.textContent = "Enter the information you entered while registering";
+
+        const emailLabel = document.createElement('label');
+        emailLabel.textContent = "Email"
+        emailLabel.style.fontWeight = "bold"
+
+        const br1 = document.createElement("br");
+
+        const emailInput = document.createElement('input');
+        emailInput.setAttribute("type", "email");
+        emailInput.setAttribute("class", "textbox");
+
+        const br2 = document.createElement("br");
+        const br3 = document.createElement("br");
+
+        const passLabel = document.createElement('label');
+        passLabel.textContent = "Password"
+        passLabel.style.fontWeight = "bold"
+
+        const br4 = document.createElement("br");
+
+        const passInput = document.createElement('input');
+        passInput.setAttribute("type", "pass");
+        passInput.setAttribute("class", "textbox");
+
+        const br5 = document.createElement("br");
+        const br6 = document.createElement("br");
+
+        let options = document.createElement('div');
+        const chkBoxInput = document.createElement('input');
+        chkBoxInput.setAttribute("type", "checkbox")
+
+        const chkBoxLabel = document.createElement('label')
+        chkBoxLabel.textContent = "Remember me";
+        chkBoxLabel.style.fontWeight = "bold";
+
+        const anchor = document.createElement('a')
+        anchor.setAttribute("class", "fpass")
+        anchor.setAttribute("href", "#")
+        anchor.textContent = "Forgot Password?"
+
+        const br7 = document.createElement("br");
+        const br8 = document.createElement("br");
+
+        let loginbtn = document.createElement('button');
+        loginbtn.setAttribute("class", "button1")
+        loginbtn.setAttribute("type", "submit")
+        loginbtn.textContent = "Login"
+
+        const br9 = document.createElement("br");
+        const br11 = document.createElement("br");
+        let line = document.createElement('hr');
+        const br10 = document.createElement("br");
+
+        let gsigninbtn = document.createElement('button');
+        gsigninbtn.setAttribute("class", "button2")
+        gsigninbtn.setAttribute("type", "submit")
+        gsigninbtn.textContent = "Sign In with Google"
+
+        document.body.appendChild(container1);
+        container1.appendChild(left);
+        left.appendChild(image);
+
+        container1.appendChild(right);
+        right.appendChild(content)
+        content.appendChild(form1);
+        form1.appendChild(header1);
+        form1.appendChild(para);
+        form1.appendChild(emailLabel);
+        form1.appendChild(br1);
+        form1.appendChild(emailInput);
+        form1.appendChild(br2);
+        form1.appendChild(br3);
+        form1.appendChild(passLabel);
+        form1.appendChild(br4);
+        form1.appendChild(passInput);
+        form1.appendChild(br5);
+        form1.appendChild(br6);
+        form1.appendChild(options);
+        options.appendChild(chkBoxInput);
+        options.appendChild(chkBoxLabel);
+        form1.appendChild(br7);
+        form1.appendChild(br8);
+        options.appendChild(anchor);
+        form1.appendChild(loginbtn);
+        form1.appendChild(br9)
+        form1.appendChild(br11)
+        form1.appendChild(line);
+        form1.appendChild(br10)
+        form1.appendChild(gsigninbtn);
+
+    </script>
+</body>
+
+</html>

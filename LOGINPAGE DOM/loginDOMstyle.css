@@ -1,0 +1,67 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.leftcontainer {
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+}
+
+.leftcontainer img {
+    margin: 30px;
+}
+
+.rightcontainer {
+    width: 50%;
+    margin: 20px;
+}
+
+.contentarea {
+    margin-top: 30px;
+    width: fit-content;
+}
+
+.button1 {
+    background-color: rgb(131, 21, 234);
+    border: none;
+    color: white;
+    padding: 15px 190px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: rgb(228, 221, 234);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fpass {
+    padding-left: 175px;
+    text-decoration: none;
+    color: rgb(124, 25, 216);
+}
+
+.textbox {
+    width: 406px;
+    height: 36px;
+    border-radius: 10px;
+}
